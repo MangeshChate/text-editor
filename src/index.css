@@ -10,11 +10,8 @@ background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 20px;
-  margin-right: 200px;
-  margin-left: 200px;
-  background:#fff;
-
+  background: #fff;
+  margin: 20px; /* Adjust margin for spacing */
 }
 
 .quill-editor {
@@ -118,7 +115,7 @@ background-color: #ffffff;
 }
 
 .ql-snow .ql-editor {
-  min-height: 850px;
+  min-height: 400px;
   
 
   padding: 10px;

@@ -8,7 +8,6 @@ const QuillEditor = () => {
   const [loading, setLoading] = useState(false);
 
   const handleAIResponse = async () => {
-    // Extract the current selection or prompt from the editor
     const prompt = getSelectedText();
     if (!prompt.trim()) {
       console.error('Prompt is empty.');
@@ -18,7 +17,6 @@ const QuillEditor = () => {
     try {
       setLoading(true);
       const response = await getAIResponse(prompt);
-      // Insert the AI response at the current cursor position
       insertAIResponse(response);
     } catch (error) {
       console.error('Error:', error);
@@ -57,13 +55,14 @@ const QuillEditor = () => {
   return (
     <div className='bg-grid'>
       {loading && <p>Loading...</p>}
-      <div className='quill-editor-container' style={{fontSize:"1rem"}}>
+      <div className='quill-editor-container'>
         <ReactQuill 
           theme="snow" 
           value={editorContent} 
           onChange={setEditorContent} 
+          style={{ fontSize: "1rem", minHeight: "400px", maxHeight: "60vh" }} // Adjust font size and height for mobile responsiveness
         />
-        <button onClick={handleAIResponse} style={{padding:"1rem", borderRadius:"5px", backgroundColor:"skyblue" ,fontSize:"1rem" ,fontWeight:"bold" , color:"black"}}>Get AI Response</button>
+        <button onClick={handleAIResponse} style={{ padding: "1rem", borderRadius: "5px",position:"absolute" ,backgroundColor: "skyblue", fontSize: "1rem", fontWeight: "bold", color: "black", width: "100%" ,cursor:"pointer"}}>Get AI Response</button> {/* Make the button full width for mobile */}
       </div>
     </div>
   );
