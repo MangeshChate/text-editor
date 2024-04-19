@@ -1,0 +1,164 @@
+.bg-grid{
+  background-image: radial-gradient(#474bff 1.5px, transparent 1.5px);
+background-size: 22px 22px;
+background-color: #ffffff;
+}
+
+
+
+.quill-editor-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background:#fff;
+
+}
+
+.quill-editor {
+  height: 800px;
+ 
+}
+
+.ql-container {
+  border: none;
+  box-shadow: none;
+}
+
+.ql-snow .ql-tooltip {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.ql-snow .ql-tooltip a {
+  color: #007bff;
+}
+
+.ql-snow .ql-picker {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.ql-snow .ql-picker:hover {
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
+
+.ql-snow .ql-picker.ql-selected {
+  background-color: #e5e5e5;
+  box-shadow: none;
+}
+
+.ql-snow .ql-picker-label {
+  color: #333;
+  font-weight: normal;
+}
+
+.ql-snow .ql-picker-item {
+  color: #333;
+  font-weight: normal;
+}
+
+.ql-snow .ql-picker-item:hover {
+  background-color: #f5f5f5;
+}
+
+.ql-snow .ql-picker-item.ql-active {
+  background-color: #e5e5e5;
+}
+
+.ql-snow .ql-toolbar {
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.ql-snow .ql-formats {
+  margin-right: 10px;
+}
+
+.ql-snow .ql-formats:hover {
+  background-color: #f5f5f5;
+}
+
+.ql-snow .ql-formats.ql-active {
+  background-color: #e5e5e5;
+}
+
+.ql-snow .ql-stroke {
+  stroke: #333;
+}
+
+.ql-snow .ql-stroke-miter {
+  fill: #333;
+}
+
+.ql-snow .ql-fill {
+  fill: #333;
+}
+
+.ql-snow .ql-even {
+  background-color: #f5f5f5;
+}
+
+.ql-snow .ql-odd {
+  background-color: #fff;
+}
+
+.ql-snow .ql-selected {
+  background-color: #000000;
+}
+
+.ql-snow .ql-editor {
+  min-height: 850px;
+  
+
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.ql-snow .ql-editor p {
+  margin-bottom: 10px;
+}
+
+.ql-snow .ql-editor h1,
+.ql-snow .ql-editor h2,
+.ql-snow .ql-editor h3,
+.ql-snow .ql-editor h4,
+.ql-snow .ql-editor h5,
+.ql-snow .ql-editor h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ql-snow .ql-editor pre {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ql-snow .ql-editor ul,
+.ql-snow .ql-editor ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ql-snow .ql-editor blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ql-snow .ql-editor code {
+  font-size: 14px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
